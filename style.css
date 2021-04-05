@@ -32,7 +32,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-row-wrapper {
   display: flex;
@@ -123,7 +123,7 @@ p > .btn:hover {
   width: 226px;
 }
 .incomplete-tasks__item > input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 .incomplete-tasks__item > .btn.delete:hover {
   color: #cf2323;
@@ -139,13 +139,13 @@ p > .btn:hover {
 
 /* Completed */
 .completed-tasks label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .completed-tasks .complete-tasks__item  input[type="text"] {
-  display: none
+  display: none;
 }
 
 .completed-tasks .complete-tasks__item .editMode input[type="text"] {
