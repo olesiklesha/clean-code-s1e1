@@ -41,7 +41,8 @@
   margin: 0;
   padding: 0px;
 }
-.task-list__item, .title {
+.task-list__item, 
+.title {
   list-style: none;
 }
 .btn {
